@@ -1,5 +1,5 @@
 load("@aspect_rules_py//py:defs.bzl", "py_binary", "py_library", "py_test")
-load("//:rules_ray_py/rules_ray_py/py_tar_zst.bzl", "py_tar_zst")
+load("@rules_ray_py//rules_ray_py:py_conda.bzl", "py_conda")
 
 py_binary(
     name = "hello_world",
@@ -25,7 +25,7 @@ py_test(
     ],
 )
 
-py_tar_zst(
-    name = "hello_world_tar_zst",
-    wrapped_py_package = ":hello_world",
+py_conda(
+    name = "hello_world_conda",
+    wrapped_py_binary = ":hello_world",
 )
