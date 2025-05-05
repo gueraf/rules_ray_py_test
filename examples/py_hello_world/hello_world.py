@@ -1,3 +1,4 @@
+import pip_install_test  # keep
 from absl import app, flags, logging
 
 from examples.py_hello_world.hello_world_lib import make_hello_message
