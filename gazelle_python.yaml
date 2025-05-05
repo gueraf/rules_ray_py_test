@@ -7,6 +7,7 @@
 manifest:
   modules_mapping:
     absl: absl_py
+    pip_install_test: pip_install_test
   pip_repository:
     name: pip
-integrity: defbbe40b6e25f588b02bf180a205405446b48491728c0eb7369f4918acb31ad
+integrity: 6ca08bdce32c42d3a836de271ce72fc4876b8d2ab60d37fe4493cc433fa3130e

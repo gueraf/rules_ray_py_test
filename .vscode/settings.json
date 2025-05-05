@@ -123,11 +123,13 @@
         "${workspaceFolder}/bazel-*"
     ],
     "python.analysis.extraPaths": [
-        "${workspaceFolder}/bazel-template_py/external/rules_python++pip+pip_313_absl_py"
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_absl_py",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pip_install_test"
     ],
     "python.analysis.typeCheckingMode": "basic",
     "python.autoComplete.extraPaths": [
-        "${workspaceFolder}/bazel-template_py/external/rules_python++pip+pip_313_absl_py"
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_absl_py",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pip_install_test"
     ],
     "remote.autoForwardPorts": false
 }

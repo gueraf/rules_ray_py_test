@@ -1,1 +1,2 @@
 absl-py>=2.2.2
+pip-install-test>=0.5
