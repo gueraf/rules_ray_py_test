@@ -1,5 +1,6 @@
 load("@aspect_rules_py//py:defs.bzl", "py_binary", "py_library", "py_test")
 load("@rules_ray_py//rules_ray_py:py_conda.bzl", "py_conda")
+load("@rules_ray_py//rules_ray_py:ray_job.bzl", "ray_job")
 
 py_binary(
     name = "hello_world",
@@ -27,5 +28,10 @@ py_test(
 
 py_conda(
     name = "hello_world_conda",
+    wrapped_py_binary = ":hello_world",
+)
+
+ray_job(
+    name = "hello_world_ray_job",
     wrapped_py_binary = ":hello_world",
 )
