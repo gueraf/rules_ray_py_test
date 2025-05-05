@@ -11,6 +11,12 @@ bazel_dep(name = "rules_uv", version = "0.70.0")
 bazel_dep(name = "aspect_bazel_lib", version = "2.15.3")
 bazel_dep(name = "aspect_rules_py", version = "1.3.4")
 
+bazel_dep(name = "rules_ray_py", version = "0.0.0")
+local_path_override(
+    module_name = "rules_ray_py",
+    path = "./rules_ray_py",
+)
+
 python = use_extension("@rules_python//python/extensions:python.bzl", "python")
 python.toolchain(
     is_default = True,
