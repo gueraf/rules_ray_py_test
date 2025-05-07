@@ -13,19 +13,46 @@ manifest:
     charset_normalizer: charset_normalizer
     click: click
     filelock: filelock
+    fsspec: fsspec
+    functorch: torch
     google.protobuf: protobuf
     idna: idna
+    isympy: sympy
+    jinja2: jinja2
     jsonschema: jsonschema
     jsonschema_specifications: jsonschema_specifications
+    markupsafe: MarkupSafe
+    mpmath: mpmath
     msgpack: msgpack
+    networkx: networkx
+    nvidia: nvidia_nvtx_cu12
+    nvidia.cublas: nvidia_cublas_cu12
+    nvidia.cuda_cupti: nvidia_cuda_cupti_cu12
+    nvidia.cuda_nvrtc: nvidia_cuda_nvrtc_cu12
+    nvidia.cuda_runtime: nvidia_cuda_runtime_cu12
+    nvidia.cudnn: nvidia_cudnn_cu12
+    nvidia.cufft: nvidia_cufft_cu12
+    nvidia.cufile: nvidia_cufile_cu12
+    nvidia.curand: nvidia_curand_cu12
+    nvidia.cusolver: nvidia_cusolver_cu12
+    nvidia.cusparse: nvidia_cusparse_cu12
+    nvidia.nccl: nvidia_nccl_cu12
+    nvidia.nvjitlink: nvidia_nvjitlink_cu12
     packaging: packaging
     pip_install_test: pip_install_test
+    pkg_resources: setuptools
     ray: ray
     referencing: referencing
     requests: requests
     rpds: rpds_py
+    setuptools: setuptools
+    sympy: sympy
+    torch: torch
+    torchgen: torch
+    triton: triton
+    typing_extensions: typing_extensions
     urllib3: urllib3
     yaml: PyYAML
   pip_repository:
     name: pip
-integrity: d6c5db7cd1d77ffaf22b8f55fcf066043872f7e645ea1b74707c3acebb728ea3
+integrity: c7eda66bb81f624ca6055bf22db2ec5c948513a7a0aeee10fc844c8b2d806479
