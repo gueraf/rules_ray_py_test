@@ -28,6 +28,7 @@
     "clang-format.style": "file",
     "editor.formatOnSave": true,
     "files.associations": {
+        "*.bzl": "python",
         "*.ipp": "cpp",
         "*.tcc": "cpp",
         "__locale": "cpp",
@@ -110,8 +111,7 @@
         "utility": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "vector": "cpp",
-        "*.bzl": "python"
+        "vector": "cpp"
     },
     "isort.args": [
         "--profile",
@@ -125,12 +125,46 @@
     ],
     "python.analysis.extraPaths": [
         "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_absl_py",
-        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pip_install_test"
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_attrs",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_certifi",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_charset_normalizer",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_click",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_filelock",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_idna",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_jsonschema",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_jsonschema_specifications",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_msgpack",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_packaging",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pip_install_test",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_protobuf",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pyyaml",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_ray",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_referencing",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_requests",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_rpds_py",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_urllib3"
     ],
     "python.analysis.typeCheckingMode": "basic",
     "python.autoComplete.extraPaths": [
         "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_absl_py",
-        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pip_install_test"
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_attrs",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_certifi",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_charset_normalizer",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_click",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_filelock",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_idna",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_jsonschema",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_jsonschema_specifications",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_msgpack",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_packaging",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pip_install_test",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_protobuf",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_pyyaml",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_ray",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_referencing",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_requests",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_rpds_py",
+        "${workspaceFolder}/bazel-rules_ray_py_test/external/rules_python++pip+pip_313_urllib3"
     ],
     "remote.autoForwardPorts": false
 }

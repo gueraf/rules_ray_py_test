@@ -7,7 +7,25 @@
 manifest:
   modules_mapping:
     absl: absl_py
+    attr: attrs
+    attrs: attrs
+    certifi: certifi
+    charset_normalizer: charset_normalizer
+    click: click
+    filelock: filelock
+    google.protobuf: protobuf
+    idna: idna
+    jsonschema: jsonschema
+    jsonschema_specifications: jsonschema_specifications
+    msgpack: msgpack
+    packaging: packaging
     pip_install_test: pip_install_test
+    ray: ray
+    referencing: referencing
+    requests: requests
+    rpds: rpds_py
+    urllib3: urllib3
+    yaml: PyYAML
   pip_repository:
     name: pip
-integrity: 6ca08bdce32c42d3a836de271ce72fc4876b8d2ab60d37fe4493cc433fa3130e
+integrity: d6c5db7cd1d77ffaf22b8f55fcf066043872f7e645ea1b74707c3acebb728ea3
