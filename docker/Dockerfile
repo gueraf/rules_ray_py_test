@@ -18,4 +18,4 @@ RUN wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
 RUN pipx install ray[default]==2.45.0
 
 # export RAY_CONDA_HOME=$(realpath ~/miniconda3/) && yes | ray start --head &
-# git clone --recurse-submodules https://github.com/gueraf/rules_ray_py_test.git && cd rules_ray_py_test/rules_ray_py && git pull origin main && cd .. && bazelisk run examples/py_ray_hello_world:hello_world_ray_job -- --wait
+# git clone --recurse-submodules https://github.com/gueraf/rules_ray_py_test.git && cd rules_ray_py_test/rules_ray_py && git pull origin main && cd .. && bazelisk run examples/py_ray_hello_world:hello_world_ray_job -- --wait=true
