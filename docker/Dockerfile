@@ -15,3 +15,6 @@ RUN conda config --add channels conda-forge && \
 
 RUN cd /tmp && \
     git clone https://github.com/gueraf/rules_ray_py_test.git
+
+RUN mkdir ~/project
+
