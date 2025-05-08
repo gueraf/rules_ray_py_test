@@ -8,8 +8,8 @@ jobs:
       - run:
           name: "examples/py_ray_hello_world:hello_world_ray_job"
           command: |
-            git clone --recurse-submodules https://github.com/gueraf/rules_ray_py_test.git && \
-            cd rules_ray_py_test/ && \
+            bazelisk build examples/py_ray_hello_world:hello_world_ray_job && \
+            until ray status | grep -q "1 node_"; do sleep 1; done && \
             timeout 5m bazelisk run examples/py_ray_hello_world:hello_world_ray_job -- --wait=true
 
 workflows:
