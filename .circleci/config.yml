@@ -10,7 +10,7 @@ jobs:
           command: |
             git clone --recurse-submodules https://github.com/gueraf/rules_ray_py_test.git && \
             cd rules_ray_py_test/ && \
-            bazelisk run examples/py_ray_hello_world:hello_world_ray_job -- --wait
+            timeout 5m bazelisk run examples/py_ray_hello_world:hello_world_ray_job -- --wait
 
 workflows:
   version: 2
