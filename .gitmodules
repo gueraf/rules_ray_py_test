@@ -1,3 +1,0 @@
-[submodule "rules_ray_py"]
-	path = rules_ray_py
-	url = https://github.com/gueraf/rules_ray_py.git
