@@ -1,4 +1,4 @@
-FROM cimg/python:3.12.10-node
+FROM cimg/python:3.13.3-node
 
 RUN sudo npm install -g @bazel/bazelisk
 
