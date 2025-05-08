@@ -5,6 +5,7 @@ jobs:
     docker:
       - image: gueraf/rules_ray_py_test:latest
     steps:
+      - checkout
       - run:
           name: "examples/py_ray_hello_world:hello_world_ray_job"
           command: |
