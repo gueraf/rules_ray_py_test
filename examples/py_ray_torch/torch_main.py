@@ -1,6 +1,7 @@
 import os
 
 import ray
+import torch
 from absl import app, flags
 
 from examples.py_ray_torch.torch_lib import sum_one_to_n
@@ -28,6 +29,8 @@ def main(argv):
             },
         }
     )
+
+    print(f"PyTorch version: {torch.__version__}")
 
     sum = ray.get(sum_one_to_n_remote.remote(FLAGS.n))
     print(f"Sum from 1 to {FLAGS.n} is {sum}.")

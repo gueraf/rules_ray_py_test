@@ -26,6 +26,7 @@ py_binary(
         ":torch_lib",
         "@pip//absl_py",
         "@pip//ray",
+        "@pip//torch",
     ],
 )
 
