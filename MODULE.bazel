@@ -20,7 +20,7 @@ local_path_override(
 python = use_extension("@rules_python//python/extensions:python.bzl", "python")
 python.toolchain(
     is_default = True,
-    python_version = "3.13.2",
+    python_version = "3.12.9",
 )
 use_repo(python, "python_versions")
 
@@ -28,7 +28,7 @@ register_toolchains("@python_versions//:all")
 
 use_repo(
     python,
-    python_3_13 = "python_3_13_2",
+    python_3_12 = "python_3_12_9",
 )
 
 pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
@@ -38,7 +38,7 @@ pip.parse(
     },
     hub_name = "pip",
     # We need to use the same version here as in the `python.toolchain` call.
-    python_version = "3.13.2",
+    python_version = "3.12.9",
     requirements_lock = "//:requirements_lock.txt",
 )
 use_repo(pip, "pip")
