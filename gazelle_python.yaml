@@ -25,6 +25,7 @@ manifest:
     mpmath: mpmath
     msgpack: msgpack
     networkx: networkx
+    numpy: numpy
     packaging: packaging
     pip_install_test: pip_install_test
     pkg_resources: setuptools
@@ -41,4 +42,4 @@ manifest:
     yaml: PyYAML
   pip_repository:
     name: pip
-integrity: 87aa427cd946570b57b8bd9d64ce83d514629438da135b1b1eb00679e39fdee2
+integrity: 801e56f687125fcbc514b46a4ce735567259955b49eb049318dca21e9c6c03cb

@@ -4,7 +4,10 @@ load("@rules_ray_py//rules_ray_py:ray_job.bzl", "ray_job")
 py_library(
     name = "torch_lib",
     srcs = ["torch_lib.py"],
-    deps = ["@pip//torch"],
+    deps = [
+        "@pip//numpy",
+        "@pip//torch",
+    ],
 )
 
 py_test(
