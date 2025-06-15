@@ -42,4 +42,4 @@ manifest:
     yaml: PyYAML
   pip_repository:
     name: pip
-integrity: dd01e7965b274df347fa06583fa07c8af9ac40bd4a9b138ba5bcf2c5ff69cfe9
+integrity: 37be19446aab5f8a4777f8f9cf1bb65b9df19eb5469f5c150211088ae76becb1
