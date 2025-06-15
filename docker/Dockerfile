@@ -1,4 +1,4 @@
-FROM rayproject/ray:2.47.0-py312-cpu
+FROM rayproject/ray:2.45.0-py312-cpu
 
 RUN sudo apt update && \
     sudo apt install -y \
@@ -14,6 +14,3 @@ RUN conda config --add channels conda-forge && \
     conda install -n base "conda-package-handling>=2.4.0" conda-build
 
 RUN git clone --recurse-submodules https://github.com/gueraf/rules_ray_py_test.git
-
-RUN mkdir ~/project
-
