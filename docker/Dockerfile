@@ -1,4 +1,4 @@
-FROM rayproject/ray:2.48.0-py312-cpu
+FROM rayproject/ray:2.46.0-py312-cpu
 
 RUN sudo apt update && \
     sudo apt install -y \
