@@ -1,6 +1,6 @@
 absl-py>=2.2.2
 pip-install-test>=0.5
-ray==2.49.1
+ray==2.52.1
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.7.0
 numpy  # version unspecified due to pytorch cpu repository
